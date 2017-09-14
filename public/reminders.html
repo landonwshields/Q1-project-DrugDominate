@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+    <title></title>
+  </head>
+  <body>
+    <header>
+      <h1>DrugDominate</h1>
+    </header>
+    <ul class="nav">
+      <li class="nav-item">
+        <a class="nav-link active" href="index.html">DrugDominate</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="about.html">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="reminders.html">Reminders</a>
+      </li>
+    </ul>
+
+    <h3>Remember to take your medication!</h3>
+    <p>Select how frequently you must take your medication, and you will receive an alert to remind you when to take it:</p>
+
+    <form id="frequency">
+      <div class="form-check">
+        <label class="form-check-label">
+          <input class="form-check-input" type="radio" name="radio" id="everyOther" value="option5">Every other day
+        </label>
+      </div>
+      <div class="form-check">
+        <label class="form-check-label">
+          <input class="form-check-input" type="radio" name="radio" id="daily" value="option1">Once a day
+        </label>
+      </div>
+      <div class="form-check">
+        <label class="form-check-label">
+          <input class="form-check-input" type="radio" name="radio" id="twiceDaily" value="option2">Twice a day
+        </label>
+      </div>
+      <div class="form-check">
+        <label class="form-check-label">
+          <input class="form-check-input" type="radio" name="radio" id="thriceDaily" value="option3">Three times a day
+        </label>
+      </div>
+      <div class="form-check">
+        <label class="form-check-label">
+          <input class="form-check-input" type="radio" name="radio" id="fourDaily" value="option4">Four times a day
+        </label>
+      </div>
+      <div class="form-check">
+        <label class="form-check-label">
+          <input class="form-check-input" type="radio" name="radio" id="fourHour" value="option6">Every four hours
+        </label>
+      </div>
+      <button>SUBMIT</button>
+    </form>
+
+    <img src="http://www.mobihealthnews.com/sites/default/files/wp-content/uploads/2010/08/img_MedicationReminders.jpg">
+
+
+    <footer>
+      <p>&copy; DrugDominate<p>
+    </footer>
+
+    <script type="text/javascript" src="reminders.js"></script>
+  </body>
+</html>
