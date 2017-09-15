@@ -2,38 +2,38 @@
 
 ## Project Description
 **DrugDominate**
-An app that you can input any medication you are taking and it will give you a list of interactions it may have, as well as remind you when to take them.
+An app that allows input of any two medications the user is taking or planning on taking and it will inform the user of any interactions they may have, as well as remind you when to take them.
 
 
 ## What problem does your project solve?
-Many people forget when to take their medications, and do not know what other meds/food they should avoid to prevent drug interactions.
+Many people forget when to take their medications, and do not know what other meds/food they should avoid to prevent drug interactions. Physicians can also use it to quickly look up any drug interactions. 
 
 
 ## Who has this problem?
-Many people on medication.
+Many people on medication, and doctors who need to look up drug interactions quickly.
 
 
-## How will your project solve this problem?
-It will remind people when they need to take their medications, and also inform them of any interactions that may occur.  
+## How does this project solve this problem?
+It reminds people when they need to take their medications, and also inform them of any interactions that may occur.  
 
 
-## What inputs does it need?
+## What inputs does have?
 A form to input medication names, as well as frequency.
 
 
 ## What outputs does it produce?
-It will display drug information, including uses and interactions, as well as remind the user when to take their medication.
+It displays drug interactions and the severity of the interaction, as well as remind the user when to take their medication.
 
 
-## What web API(s) will it use?
-Either rxnav or another drug api.
+## What web API does it use?
+DrugBank API
 
 
-## What technologies do you plan to use?
+## What technologies did you use?
 HTML, CSS, Javascript, Bootstrap, Firebase
 
 
 ## Feature list
-Form input, reminders section, current medication list
+Form input, reminders section, about section
 ![Wireframe](IMG_5179.JPG)
 # Q1-project-DrugDominate
