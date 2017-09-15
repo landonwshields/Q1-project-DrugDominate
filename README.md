@@ -35,5 +35,4 @@ HTML, CSS, Javascript, Bootstrap, Firebase
 
 ## Feature list
 Form input, reminders section, about section
-![Wireframe](IMG_5179.JPG)
 # Q1-project-DrugDominate
